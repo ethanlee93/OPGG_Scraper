@@ -1,5 +1,7 @@
 ### Current functionality ###
 Automate update & show-more functionality on op.gg.  Only scrapes play time. 
+### Prerequisites ###
+A fully functional brain.
 ### How to use ###
 Use latest release. Download and unzip folder to desktop. Launch OPGG_Scraper.bat.
 ### Why this needs a fake browser ###
