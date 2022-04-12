@@ -1,0 +1,1 @@
+venv\Scripts\python.exe OPGG_Scraper.py
