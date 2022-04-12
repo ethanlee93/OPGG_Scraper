@@ -1,8 +1,6 @@
-from bs4 import BeautifulSoup as bs
 from selenium import webdriver as webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
-import requests
 from time import sleep
 import re
 
@@ -51,6 +49,7 @@ class OPGG_Scraper:
 
             done = input("Are you done? (Y/N) ").lower()
             if done == "y":
+                print("Window will close automatically.")
                 driver.quit()
                 return
 
@@ -144,7 +143,7 @@ class OPGG_Scraper:
 
 if __name__ == "__main__":
     username = division = subdomain = ""
-    
+
     while True:
         username = input("\nENTER YOUR USERNAME (not case sensitive): ").lower()
         if len(username) == 0:
